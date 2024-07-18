@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+
+    <Button
+        android:id="@+id/readSmsBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="读取短信" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#888888" />
+
+    <TextView
+        android:id="@+id/smsTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="获取前请确保已经存在已接收短信."
+        android:textSize="15sp" />
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+
+    <Button
+        android:id="@+id/readContactBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="读取联系人" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#888888" />
+
+    <TextView
+        android:id="@+id/contactsTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="读取前确保已经创建联系人"
+        android:textSize="15sp" />
+
+</LinearLayout>

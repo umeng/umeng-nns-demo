@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="30dp">
+
+    <Button
+        android:id="@+id/ImeiBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="读取IMEI" />
+    <Button
+        android:id="@+id/ImsiBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="读取IMSI" />
+    <Button
+        android:id="@+id/AidBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="读取Android_ID" />
+    <Button
+        android:id="@+id/IccidBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="读取ICCID" />
+    <Button
+        android:id="@+id/contactsBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="读取联系人" />
+
+    <Button
+        android:id="@+id/messageBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="读取短信" />
+
+    <Button
+        android:id="@+id/getClipContentBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取剪贴板信息" />
+
+    <Button
+        android:id="@+id/startRecordBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开始录音" />
+
+
+</LinearLayout>
